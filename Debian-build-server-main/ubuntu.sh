@@ -18,7 +18,8 @@ cd ./build
 cd ..
 mv ./build/output/images ./img/ubuntuminimal/ARM/
 cd ./build
-./compile.sh  BOARD=uefi-x86 ALLOW_ROOT=yes KERNEL_GIT=full VENDOR="EQLinux" VENDORCOLOR="5;100;115" BRANCH=current RELEASE=resolute BUILD_MINIMAL=yes BUILD_DESKTOP=no BUILD_ONLY=default REPOSITORY_INSTALL=u-boot,kernel,armbian-config,armbian-firmware USE_CCACHE=no INSTALL_HEADERS=yes KERNEL_CONFIGURE=no SKIP_BOOTSPLASH=yes USE_TORRENT=yes COMPRESS_OUTPUTIMAGE=img BSPFREEZE=yes
+./compile.sh  BOARD=uefi-x86 ALLOW_ROOT=yes KERNEL_GIT=full VENDOR="EQLinux" VENDORCOLOR="5;100;115" BRANCH=current RELEASE=resolute BUILD_MINIMAL=yes BUILD_DESKTOP=no BUILD_ONLY=default REPOSITORY_INSTALL=kernel,armbian-config,armbian-firmware USE_CCACHE=no INSTALL_HEADERS=yes KERNEL_CONFIGURE=no SKIP_BOOTSPLASH=yes USE_TORRENT=yes COMPRESS_OUTPUTIMAGE=img BSPFREEZE=yes
+./compile.sh  BOARD=uefi-arm64 ALLOW_ROOT=yes KERNEL_GIT=full VENDOR="EQLinux" VENDORCOLOR="5;100;115" BRANCH=current RELEASE=resolute BUILD_MINIMAL=yes BUILD_DESKTOP=no BUILD_ONLY=default REPOSITORY_INSTALL=kernel,armbian-config,armbian-firmware USE_CCACHE=no INSTALL_HEADERS=yes KERNEL_CONFIGURE=no SKIP_BOOTSPLASH=yes USE_TORRENT=yes COMPRESS_OUTPUTIMAGE=img BSPFREEZE=yes
 cd ..
 mv ./build/output/images ./img/ubuntuminimal/X86/
 #Xfce
@@ -43,7 +44,8 @@ mv ./build/output/images ./img/ubuntuxfce/ARM/
 rm -rf ./build/userpatches/customize-image.sh
 cp ./buildscripts/xfce86/userpatches/customize-image.sh ./build/userpatches/
 cd ./build
-./compile.sh  BOARD=uefi-x86 ALLOW_ROOT=yes KERNEL_GIT=full VENDOR="EQLinux xfce" VENDORCOLOR="5;100;115" BRANCH=current RELEASE=resolute BUILD_MINIMAL=yes BUILD_DESKTOP=no BUILD_ONLY=default REPOSITORY_INSTALL=u-boot,kernel,armbian-config,armbian-firmware USE_CCACHE=no INSTALL_HEADERS=yes KERNEL_CONFIGURE=no SKIP_BOOTSPLASH=yes USE_TORRENT=yes COMPRESS_OUTPUTIMAGE=img BSPFREEZE=yes
+./compile.sh  BOARD=uefi-x86 ALLOW_ROOT=yes KERNEL_GIT=full VENDOR="EQLinux xfce" VENDORCOLOR="5;100;115" BRANCH=current RELEASE=resolute BUILD_MINIMAL=yes BUILD_DESKTOP=no BUILD_ONLY=default REPOSITORY_INSTALL=kernel,armbian-config,armbian-firmware USE_CCACHE=no INSTALL_HEADERS=yes KERNEL_CONFIGURE=no SKIP_BOOTSPLASH=yes USE_TORRENT=yes COMPRESS_OUTPUTIMAGE=img BSPFREEZE=yes
+./compile.sh  BOARD=uefi-arm64 ALLOW_ROOT=yes KERNEL_GIT=full VENDOR="EQLinux xfce" VENDORCOLOR="5;100;115" BRANCH=current RELEASE=resolute BUILD_MINIMAL=yes BUILD_DESKTOP=no BUILD_ONLY=default REPOSITORY_INSTALL=kernel,armbian-config,armbian-firmware USE_CCACHE=no INSTALL_HEADERS=yes KERNEL_CONFIGURE=no SKIP_BOOTSPLASH=yes USE_TORRENT=yes COMPRESS_OUTPUTIMAGE=img BSPFREEZE=yes
 cd ..
 mv ./build/output/images ./img/ubuntuxfce/X86/
 rm -rf ./build/userpatches/customize-image.sh
@@ -59,6 +61,7 @@ mv ./build/output/images ./img/ubuntucinnamon/ARM/
 rm -rf ./build/userpatches/customize-image.sh
 cp ./buildscripts/cinnamon86/userpatches/customize-image.sh ./build/userpatches/
 cd ./build
-./compile.sh  BOARD=uefi-x86 ALLOW_ROOT=yes KERNEL_GIT=full VENDOR="EQLinux cinnamon" VENDORCOLOR="5;100;115" BRANCH=current RELEASE=resolute BUILD_MINIMAL=yes BUILD_DESKTOP=no BUILD_ONLY=default REPOSITORY_INSTALL=u-boot,kernel,armbian-config,armbian-firmware USE_CCACHE=no INSTALL_HEADERS=yes KERNEL_CONFIGURE=no SKIP_BOOTSPLASH=yes USE_TORRENT=yes COMPRESS_OUTPUTIMAGE=img BSPFREEZE=yes
+./compile.sh  BOARD=uefi-x86 ALLOW_ROOT=yes KERNEL_GIT=full VENDOR="EQLinux cinnamon" VENDORCOLOR="5;100;115" BRANCH=current RELEASE=resolute BUILD_MINIMAL=yes BUILD_DESKTOP=no BUILD_ONLY=default REPOSITORY_INSTALL=kernel,armbian-config,armbian-firmware USE_CCACHE=no INSTALL_HEADERS=yes KERNEL_CONFIGURE=no SKIP_BOOTSPLASH=yes USE_TORRENT=yes COMPRESS_OUTPUTIMAGE=img BSPFREEZE=yes
+./compile.sh  BOARD=uefi-arm64 ALLOW_ROOT=yes KERNEL_GIT=full VENDOR="EQLinux cinnamon" VENDORCOLOR="5;100;115" BRANCH=current RELEASE=resolute BUILD_MINIMAL=yes BUILD_DESKTOP=no BUILD_ONLY=default REPOSITORY_INSTALL=kernel,armbian-config,armbian-firmware USE_CCACHE=no INSTALL_HEADERS=yes KERNEL_CONFIGURE=no SKIP_BOOTSPLASH=yes USE_TORRENT=yes COMPRESS_OUTPUTIMAGE=img BSPFREEZE=yes
 cd ..
 mv ./build/output/images ./img/ubuntucinnamon/X86/
