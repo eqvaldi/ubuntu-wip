@@ -11,3 +11,4 @@ note: this is WIP ubuntu support and is not finished yet and will take some time
 * [ ] implement ubuntu 26.04 support in install scripts.
 * [ ] implement ubuntu minimal (Debian-build-server-V4 support)
 * [ ] implement ubuntu desktop support XFCE/Cinnamon.
+* [ ] move debra-ports to a separate git repository.
