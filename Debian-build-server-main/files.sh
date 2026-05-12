@@ -71,6 +71,21 @@ do
 	mkdir X86
 	mkdir ARM
 	cd ..
+	mkdir ubuntuminimal
+	cd ubuntuminimal
+	mkdir X86
+	mkdir ARM
+	cd ..
+	mkdir ubuntuxfce
+	cd ubuntuxfce
+	mkdir X86
+	mkdir ARM
+	cd ..
+	mkdir ubuntucinnamon
+	cd ubuntucinnamon
+	mkdir X86
+	mkdir ARM
+	cd ..
 	cd ..
 	git clone https://github.com/Eqvaldi-deer/build.git
 	cp ./buildscripts/compress.sh ./img
