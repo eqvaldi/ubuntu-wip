@@ -8,7 +8,7 @@ note: this is WIP ubuntu support and is not finished yet and will take some time
 * [ ] Fix Build errors.
 * [ ] Fix install script errors.
 * [ ] Xfce: edit xfwm4 edit config disable compositing.
-
+* [ ] implement ubuntu desktop support for mate/lxqt.
 ### DONE
 
 * [x] move debra-ports to a separate git repository.
@@ -16,8 +16,7 @@ note: this is WIP ubuntu support and is not finished yet and will take some time
 * [x] implement RISCV64 UIFI support.
 * [x] implement build to support ubuntu 26.04.
 * [x] implement debian and ubuntu 26.04 separately.
-* [x] implement ubuntu minimal (Debian-build-server-V4 support)
-* [x] implement ubuntu desktop support XFCE/Cinnamon. (Look at TO DO #2/3)
+* [x] implement ubuntu minimal. (Debian-build-server-V4 support)
+* [x] implement ubuntu desktop support for XFCE/Cinnamon.
 * [x] implement image branding. (xfce,mate,etc...)
 
-note:cinnamon tested xfce not.
