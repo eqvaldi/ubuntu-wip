@@ -10,6 +10,7 @@ note: this is WIP ubuntu support and is not finished yet and it will take some t
 * [ ] Xfce: edit xfwm4 edit config disable compositing.
 * [ ] implement ubuntu desktop support for mate/lxqt.
 * [ ] adjust board config. (remove a few SBC's example mate run's poorly on 512MB of RAM.)
+* [ ] implement flatpak/flathub support. (Ubuntu only)
 
 ### DONE
 
