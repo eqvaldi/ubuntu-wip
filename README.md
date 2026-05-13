@@ -14,6 +14,9 @@ note: this is WIP ubuntu support and is not finished yet and it will take some t
 * [ ] implement Debian 14. (forky)
 * [ ] rename X86 to UIFI.
 * [ ] update debra-ports-windows.sh. (scripts) (maintainer: beangreen247)
+* [ ] test lxqt.
+* [ ] test mate.
+* [ ] test Xfce.
 
 ### DONE
 
@@ -25,4 +28,5 @@ note: this is WIP ubuntu support and is not finished yet and it will take some t
 * [x] implement ubuntu minimal. (Debian-build-server-V4 support)
 * [x] implement ubuntu desktop support for XFCE/Cinnamon.
 * [x] implement image branding. (xfce,mate,etc...)
+* [x] test cinnamon.
 
