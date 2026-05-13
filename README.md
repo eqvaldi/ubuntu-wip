@@ -12,8 +12,8 @@ note: this is WIP ubuntu support and is not finished yet and it will take some t
 * [ ] adjust board config. (remove a few SBC's example mate run's poorly on 512MB of RAM.)
 * [ ] implement flatpak/flathub support. (Ubuntu only)
 * [ ] implement Debian 14 support. (forky)
-* [ ] rename X86 to UEFI.
-* [ ] rename server to xfcelite.
+* [ ] rename dir X86 to UEFI.
+* [ ] rename dir server to xfcelite.
 * [ ] update debra-ports-windows.sh. (scripts) (maintainer: beangreen247)
 * [ ] test lxqt.
 * [ ] test mate.
