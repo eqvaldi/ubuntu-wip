@@ -11,7 +11,7 @@ note: this is WIP ubuntu support and is not finished yet and it will take some t
 * [ ] implement ubuntu desktop support for mate/lxqt.
 * [ ] adjust board config. (remove a few SBC's example mate run's poorly on 512MB of RAM.)
 * [ ] implement flatpak/flathub support. (Ubuntu only)
-* [ ] implement Debian 14. (fotky)
+* [ ] implement Debian 14. (forky)
 * [ ] rename X86 to UIFI.
 * [ ] update debra-ports-windows.sh. (scripts) (maintainer: beangreen247)
 
