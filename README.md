@@ -1,6 +1,6 @@
 ### Ubuntu support. (WIP)
 
-note: this is WIP ubuntu support and is not finished yet and will take some time...
+note: this is WIP ubuntu support and is not finished yet and it will take some time...
 
 ### TO DO
 
@@ -9,6 +9,8 @@ note: this is WIP ubuntu support and is not finished yet and will take some time
 * [ ] Fix install script errors.
 * [ ] Xfce: edit xfwm4 edit config disable compositing.
 * [ ] implement ubuntu desktop support for mate/lxqt.
+* [ ] adjust board config. (remove a few SBC's example mate run's poorly on 512MB of RAM.)
+
 ### DONE
 
 * [x] move debra-ports to a separate git repository.
