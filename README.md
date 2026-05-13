@@ -18,3 +18,5 @@ note: this is WIP ubuntu support and is not finished yet and will take some time
 * [x] implement ubuntu minimal (Debian-build-server-V4 support)
 * [x] implement ubuntu desktop support XFCE/Cinnamon. (Look at TO DO #2/3)
 * [x] implement image branding. (xfce,mate,etc...)
+
+note:cinnamon tested xfce not.
