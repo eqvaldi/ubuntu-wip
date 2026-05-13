@@ -7,6 +7,7 @@ note: this is WIP ubuntu support and is not finished yet and will take some time
 * [ ] implement ubuntu 26.04 support in install scripts.
 * [ ] Fix Build errors.
 * [ ] Fix install script errors.
+* [ ] Xfce: edit xfwm4 edit config disable compositing.
 
 ### DONE
 
